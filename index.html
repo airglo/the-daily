@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Daily — June 10, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#d4a017;--white:#f7f5f0;--muted:rgba(247,245,240,.5);--card:rgba(247,245,240,.045);--line:rgba(247,245,240,.09)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0b0914;color:var(--white);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:540px;margin:0 auto;padding:28px 18px 60px}
+header{text-align:center;padding:18px 0 22px;border-bottom:2px solid var(--white);margin-bottom:26px}
+h1{font-family:'Playfair Display',serif;font-weight:800;font-size:44px;line-height:1}
+.dateline{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-top:10px}
+.tagline{font-size:12px;color:var(--muted);margin-top:6px}
+section{margin-bottom:30px}
+.sechead{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.sechead::after{content:'';flex:1;height:1px;background:var(--line)}
+.pill{display:inline-block;font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.16em;text-transform:uppercase;padding:5px 11px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 16px 14px;margin-bottom:12px}
+h2{font-family:'Playfair Display',serif;font-weight:700;font-size:21px;line-height:1.25;margin-bottom:8px}
+h3{font-family:'Playfair Display',serif;font-weight:700;font-size:17.5px;line-height:1.3;margin-bottom:8px}
+.dek{font-size:14px;line-height:1.6;color:rgba(247,245,240,.85);margin-bottom:10px}
+.dek b{color:var(--white)}
+/* go-deeper accordion */
+details{margin-bottom:10px}
+summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:7px;font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);padding:7px 0;user-select:none;-webkit-tap-highlight-color:transparent}
+summary::-webkit-details-marker{display:none}
+summary::before{content:'+';font-size:13px;width:18px;height:18px;border:1px solid rgba(212,160,23,.5);border-radius:5px;display:inline-flex;align-items:center;justify-content:center;transition:transform .2s}
+details[open] summary::before{content:'–'}
+details[open] summary .more{display:none}
+details:not([open]) summary .less{display:none}
+details ul{margin-top:8px}
+/* bullets */
+ul{list-style:none}
+li{font-size:13.5px;line-height:1.6;color:rgba(247,245,240,.82);padding:9px 10px 9px 30px;position:relative;margin-bottom:6px;background:rgba(247,245,240,.03);border-left:2px solid rgba(212,160,23,.45);border-radius:0 9px 9px 0}
+li::before{content:'';position:absolute;left:11px;top:16px;width:7px;height:7px;background:linear-gradient(135deg,#d4a017,#f0c84b);transform:rotate(45deg);border-radius:2px}
+li b{color:var(--white)}
+.k{font-family:'DM Mono',monospace;font-size:12px;color:#f0c84b;background:rgba(212,160,23,.12);border:1px solid rgba(212,160,23,.25);border-radius:6px;padding:1px 6px;white-space:nowrap}
+.src{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--line);padding-top:9px;margin-top:4px}
+/* companies */
+.co{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 14px;margin-bottom:8px}
+.tk{flex-shrink:0;font-family:'DM Mono',monospace;font-size:10px;font-weight:500;color:#f0c84b;background:rgba(212,160,23,.12);border:1px solid rgba(212,160,23,.3);border-radius:7px;padding:4px 8px;margin-top:1px;min-width:54px;text-align:center}
+.co p{font-size:13px;line-height:1.55;color:rgba(247,245,240,.82)}
+.co p b{color:var(--white);font-weight:600}
+.mktnote{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:6px;text-align:center}
+.rotlbl{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#67e8f9;margin:14px 2px 8px}
+.co.rot{border-style:dashed;border-color:rgba(103,232,249,.25)}
+.co.rot .tk{color:#67e8f9;background:rgba(8,145,178,.12);border-color:rgba(103,232,249,.3)}
+/* media */
+.vid{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin:12px 0 4px;background:#000}
+.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vidcap{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:5px 0 10px}
+.memeimg{width:100%;border-radius:12px;border:1px solid var(--line);display:block;margin:12px 0 4px}
+/* shorts */
+.sh{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.04);border:1px solid var(--line);border-left:3px solid #ff0000;border-radius:10px;padding:12px 13px;text-decoration:none;color:inherit;margin-bottom:8px}
+.sh:active{background:rgba(255,255,255,.09)}
+.shp{width:28px;height:28px;flex-shrink:0;background:#ff0000;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.shp::after{content:'';width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:9px solid white;margin-left:2px}
+.sht{font-size:12.5px;font-weight:700;line-height:1.3}
+.shg{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.wild{border:1px solid rgba(251,146,60,.35);background:rgba(194,65,12,.08)}
+.wild li{border-left-color:rgba(251,146,60,.55)}
+.wild li::before{background:linear-gradient(135deg,#fb923c,#fdba74)}
+.wildnote{font-size:11px;color:#fdba74;font-style:italic;margin-bottom:8px}
+footer{text-align:center;font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);border-top:2px solid var(--white);padding-top:14px;margin-top:34px}
+a{color:#60a5fa}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>The Daily</h1>
+  <div class="dateline">Wednesday · June 10, 2026</div>
+  <div class="tagline">Your feed, minus the scrolling. ~6 min read.</div>
+</header>
+
+<!-- BIG TECH -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(6,95,70,.3);border:1px solid rgba(6,95,70,.5);color:#4ade80">🏢 Big Tech Today</span></div>
+  <div class="co"><span class="tk">NVDA</span><p><b>Nvidia</b> — Jensen Huang says Nvidia's market share in China has fallen to zero, as the broader chip selloff continues for a second week.</p></div>
+  <div class="co"><span class="tk">AAPL</span><p><b>Apple</b> — Fresh off an earnings beat, but caught in a memory-chip crunch that Arm warns could flip phone unit growth negative.</p></div>
+  <div class="co"><span class="tk">MSFT</span><p><b>Microsoft</b> — Leading the hyperscaler pack as combined AI capex heads past $470B in 2026, up from ~$350B last year.</p></div>
+  <div class="co"><span class="tk">META</span><p><b>Meta</b> — Testing an AI-powered pendant and prepping "Wearables for Work," a business push to put AI glasses on the job site.</p></div>
+  <div class="co"><span class="tk">GOOGL</span><p><b>Alphabet</b> — Gemini just hit 27.4% of worldwide chatbot traffic, roughly doubling in six months while ChatGPT slid to 54.7%.</p></div>
+  <div class="co"><span class="tk">AMZN</span><p><b>Amazon</b> — Robotaxis expanding in Spain via partners, and still one of the four hyperscalers driving the $470B AI buildout.</p></div>
+  <div class="co"><span class="tk">TSLA</span><p><b>Tesla</b> — Musk is all-in on the Optimus robot after winding down Model S and X production; cars are no longer the main story.</p></div>
+  <div class="co"><span class="tk">PLTR</span><p><b>Palantir</b> — Fresh off AIPCon: a Google Cloud marketplace partnership and an AI fundraising platform with Kirkland &amp; Ellis, after Q1's 85% revenue growth and raised guidance.</p></div>
+  <div class="rotlbl">⟳ In the news today</div>
+  <div class="co rot"><span class="tk">AVGO</span><p><b>Broadcom</b> — Down ~3.9% as the semiconductor slide that wiped $1T off markets last week keeps pressuring AI chip names.</p></div>
+  <div class="co rot"><span class="tk">ARM</span><p><b>Arm</b> — Warned phone unit growth could "flip to negative" on the memory-chip shortage — the supply story rippling through the whole sector.</p></div>
+  <div class="mktnote">Market backdrop: Dow -0.78% · S&P -0.37% · Nasdaq -0.42% · VIX +10%</div>
+</section>
+
+<!-- BIG STORY -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(190,18,60,.3);border:1px solid rgba(190,18,60,.5);color:#fda4af">📰 Big Story</span></div>
+  <div class="card">
+    <h2>Inflation jumps to 4.2% — hottest since early 2023</h2>
+    <p class="dek">May CPI came in at <b>4.2%</b>, wages aren't keeping up, and markets sold off as oil climbed on U.S.–Iran tensions.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li>Gas prices are a big driver — Iran tensions pushed oil higher and the <span class="k">VIX +10%</span> spike followed.</li>
+        <li><b>Real paychecks are shrinking:</b> wage growth is now lagging the inflation rate.</li>
+        <li>Markets: <span class="k">Dow -0.78%</span> <span class="k">S&P -0.37%</span> <span class="k">Nasdaq -0.42%</span></li>
+        <li><b>Also in Washington:</b> the House passed a <span class="k">$70B</span> immigration enforcement package 214-212, and California's November governor race is set — Steve Hilton vs. Xavier Becerra.</li>
+      </ul>
+    </details>
+    <div class="src">NBC News · TheStreet · Fox News</div>
+  </div>
+</section>
+
+<!-- AI & BUSINESS -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(29,78,216,.3);border:1px solid rgba(29,78,216,.5);color:#93c5fd">🤖 AI & Business</span></div>
+  <div class="card">
+    <h3>White House signs AI security executive order</h3>
+    <p class="dek">A new executive order stands up an AI cybersecurity clearinghouse — and Colorado's first-in-the-nation AI law lands <b>June 30</b>.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li>The clearinghouse pairs AI labs with critical-infrastructure operators to find and patch vulnerabilities at scale — voluntary, for now.</li>
+        <li>Colorado's AI Act covers high-risk AI in <b>hiring, lending, housing, and healthcare</b>.</li>
+        <li>If you deploy AI in those workflows: risk programs, annual impact assessments, disclosures, and appeal rights just became a real line item.</li>
+      </ul>
+    </details>
+    <div class="src">The White House · Colorado AI Act</div>
+  </div>
+  <div class="card">
+    <h3>OpenAI ships 'Dreaming V3' memory — while its lead shrinks</h3>
+    <p class="dek">ChatGPT's biggest memory upgrade yet is rolling out — but its traffic share has fallen to <b>54.7%</b> while Gemini doubled to <b>27.4%</b>.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li>Dreaming V3 is the biggest memory upgrade since the original ChatGPT rollout — Plus/Pro users since <span class="k">June 4</span>.</li>
+        <li>ChatGPT held <span class="k">76.5%</span> of chatbot traffic in early 2025. It's now <span class="k">54.7%</span>.</li>
+        <li>For the Dan Martell playbook: the moat isn't the model anymore — it's the workflow the model lives inside.</li>
+      </ul>
+    </details>
+    <div class="src">BuildFastWithAI · llm-stats</div>
+  </div>
+  <div class="card">
+    <h3>Founders are choosing revenue over rounds</h3>
+    <p class="dek">June's startup data shows a decisive tilt toward bootstrapping — revenue first, dilution later, if ever.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li>The playbook: pre-sales, paid pilots, micro-SaaS, and productized services <b>before</b> any raise.</li>
+        <li><b>Venture debt and revenue-based financing</b> are rising — runway without giving up equity.</li>
+        <li>Real demand: applied AI inside workflows, cybersecurity, defense tech, robotics. Dead: generic AI wrappers.</li>
+      </ul>
+    </details>
+    <div class="src">StartUs Insights · mean.ceo</div>
+  </div>
+</section>
+
+<!-- MONEY -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(6,95,70,.3);border:1px solid rgba(6,95,70,.5);color:#4ade80">💰 Your Money</span></div>
+  <div class="card">
+    <h2>Social Security trust fund projected to run dry in 2032</h2>
+    <p class="dek">The new trustees report moves the depletion date to <b>2032</b> — six years out, and roughly a 25% benefit haircut unless Congress acts.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li>Depletion ≠ disappearance: incoming payroll taxes would still cover ~75% of benefits.</li>
+        <li><b>Control what you can:</b> 2026 401(k) limit is <span class="k">$24,500</span> plus <span class="k">$8,000</span> catch-up at 50+.</li>
+        <li>With CPI at <span class="k">4.2%</span>, idle cash is quietly losing real value every month.</li>
+        <li>Vanguard's new research: pick retirement income products by <b>the goal they serve</b>, not the balance they show.</li>
+      </ul>
+    </details>
+    <div class="src">CNBC · Kiplinger · Vanguard</div>
+  </div>
+</section>
+
+<!-- MINDSET -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(180,83,9,.3);border:1px solid rgba(180,83,9,.5);color:#fcd34d">🧠 Mindset Minute</span></div>
+  <div class="card">
+    <h3>Longevity went mainstream — and the winning protocol is boring</h3>
+    <p class="dek">The 2026 trend reports agree: <b>zone 2 cardio + strength training</b> beat everything in the pharmacy for longevity biomarkers.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li>The shiny extras — urolithin A, glucose monitors for healthy people, multi-cancer blood tests — are frosting, not cake.</li>
+        <li>The base layer: lift, walk, sleep, and eat on a consistent rhythm. Cheap, unsexy, effective.</li>
+        <li>Bryan Johnson spends <span class="k">$2M/yr</span>. The part that does most of the work costs almost nothing.</li>
+      </ul>
+    </details>
+    <div class="src">Hone Health · Stony Brook Medicine</div>
+  </div>
+</section>
+
+<!-- ROCK -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(109,40,217,.3);border:1px solid rgba(109,40,217,.5);color:#c4b5fd">🎸 Rock History Gem</span></div>
+  <div class="card">
+    <h3>Metallica remasters ReLoad — and doubles its Sphere residency</h3>
+    <p class="dek"><b>ReLoad: Remastered</b> dropped this month, and the Vegas Sphere residency just grew from 8 shows to 24, stretching into 2027.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li>The box: <span class="k">15 discs</span> of demos, rough mixes, and live cuts from the Load-era sessions, ~30 years on.</li>
+        <li>The first 8 Sphere shows sold out in record time before <span class="k">16 more</span> were added.</li>
+        <li>Full-circle bonus: Nirvana's <b>'Smells Like Teen Spirit'</b> is a top trending TikTok sound this month — 35 years young.</li>
+      </ul>
+    </details>
+    <div class="src">Ultimate Classic Rock · The Rock Revival</div>
+  </div>
+</section>
+
+<!-- FUN & VIRAL -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(8,145,178,.3);border:1px solid rgba(8,145,178,.5);color:#67e8f9">😄 Fun & Viral</span></div>
+  <div class="card">
+    <h2>The internet's favorite crime: the KitKat Heist</h2>
+    <p class="dek">Someone stole <b>400,000 KitKat bars</b> in transit across Europe, and the internet has crowned it the heist of the century.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li>Brands from <b>BMW to Lidl</b> are riding the 'Nihilistic Penguin' meme wave alongside it.</li>
+        <li>Sound of the month: <b>"Melissa, I'm drunk and outside…"</b> — for celebrating anything slightly too hard.</li>
+        <li>Also trending: the hand-swipe reveal transition, and Charli XCX's "Rock Music" all over TikTok.</li>
+      </ul>
+    </details>
+    <img class="memeimg" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kit-Kat-Split.JPG?width=640"
+         alt="KitKat bars" loading="lazy"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='none'">
+    <div class="vidcap">The contraband in question (×400,000)</div>
+    <div class="vid"><iframe loading="lazy"
+      src="https://www.youtube.com/embed?listType=search&list=kitkat+heist+meme+2026&rel=0"
+      title="KitKat heist memes" allowfullscreen></iframe></div>
+    <div class="vidcap">▶ Tap to play — KitKat heist memes</div>
+    <div class="vid"><iframe loading="lazy"
+      src="https://www.youtube.com/embed?listType=search&list=melissa+im+drunk+and+outside+trend&rel=0"
+      title="Melissa trend" allowfullscreen></iframe></div>
+    <div class="vidcap">▶ Tap to play — the 'Melissa' trend</div>
+    <div class="src">NapoleonCat · Ramdam</div>
+  </div>
+</section>
+
+<!-- SHORTS QUEUE -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(220,38,38,.3);border:1px solid rgba(220,38,38,.5);color:#fca5a5">▶ Shorts Queue</span></div>
+  <a href="https://www.youtube.com/shorts?search=inflation+4.2+percent+2026+explained+shorts" target="_blank" rel="noopener noreferrer" class="sh"><div class="shp"></div><div><div class="sht">Inflation at 4.2% — what it means for you</div><div class="shg">Finance 💰</div></div></a>
+  <a href="https://www.youtube.com/shorts?search=caleb+hammer+financial+audit+shorts+2026" target="_blank" rel="noopener noreferrer" class="sh"><div class="shp"></div><div><div class="sht">Caleb Hammer's latest financial audit</div><div class="shg">Finance 💰</div></div></a>
+  <a href="https://www.youtube.com/shorts?search=alex+hormozi+work+smarter+shorts+2026" target="_blank" rel="noopener noreferrer" class="sh"><div class="shp"></div><div><div class="sht">Hormozi on working smarter, not 80-hour weeks</div><div class="shg">Business 🚀</div></div></a>
+  <a href="https://www.youtube.com/shorts?search=bryan+johnson+longevity+protocol+shorts+2026" target="_blank" rel="noopener noreferrer" class="sh"><div class="shp"></div><div><div class="sht">Bryan Johnson's latest longevity protocol</div><div class="shg">Biohacking 🧬</div></div></a>
+  <a href="https://www.youtube.com/shorts?search=metallica+sphere+las+vegas+shorts+2026" target="_blank" rel="noopener noreferrer" class="sh"><div class="shp"></div><div><div class="sht">Metallica at the Sphere — residency clips</div><div class="shg">Rock 🎸</div></div></a>
+  <a href="https://www.youtube.com/shorts?search=kitkat+heist+meme+shorts+2026" target="_blank" rel="noopener noreferrer" class="sh"><div class="shp"></div><div><div class="sht">The KitKat Heist memes, explained</div><div class="shg">Viral 🔥</div></div></a>
+</section>
+
+<!-- WILD CARD -->
+<section>
+  <div class="sechead"><span class="pill" style="background:rgba(194,65,12,.3);border:1px solid rgba(194,65,12,.5);color:#fdba74">⚡ Wild Card</span></div>
+  <div class="card wild">
+    <h3>The research keeps saying the grind doesn't work</h3>
+    <div class="wildnote">Intentionally contradictory to your usual feed — worth sitting with.</div>
+    <p class="dek">Your algorithm loves hustle; the data says efficiency falls off a cliff past <b>50 hours a week</b> — and nobody can even tell who's grinding.</p>
+    <details>
+      <summary><span class="more">Go deeper</span><span class="less">Less</span></summary>
+      <ul>
+        <li><b>Stanford:</b> productivity per hour drops sharply past <span class="k">50 hrs/wk</span>.</li>
+        <li><b>BU Questrom:</b> managers couldn't distinguish consultants working 80-hour weeks from ones who pretended — zero detected difference.</li>
+        <li><span class="k">77%</span> of workers report burnout; <span class="k">42%</span> have quit a job over it.</li>
+        <li>The contrarian take for a Hormozi-heavy feed: the constraint isn't effort — it's recovery.</li>
+      </ul>
+    </details>
+    <div class="src">Stanford · BU Questrom · Leaders.com</div>
+  </div>
+</section>
+
+<footer>The Daily · June 10, 2026<br>Personalized to your YouTube watch history</footer>
+
+</div>
+</body>
+</html>
